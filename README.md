@@ -527,21 +527,6 @@ docker run -p 8000:8000 \
 
 <div align="center">
 
-| **LLM**        | Understand operator intent                            |
-| **Guardrails** | Validate and control AI generated directives          |
-| **Optimizer**  | Generate the mathematically optimal feasible schedule |
-
-</div>
-
-This prevents an LLM from directly controlling the optimization model and makes the final energy schedule deterministic with respect to the validated inputs.
-
----
-
-<div align="center">
-
-
-<div align="center">
-
 ## Team
 
 </div>
