@@ -11,6 +11,7 @@ app = FastAPI(title="GridWise LLM Energy Optimizer")
 
 
 @app.get("/health")
+@app.head("/health")
 def health():
     return {"status": "ok"}
 
