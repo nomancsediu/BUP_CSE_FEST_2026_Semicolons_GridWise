@@ -20,7 +20,7 @@
   </a>
   <img src="https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
-  <img src="https://img.shields.io/badge/Llama_3.3-Groq-F55036?style=flat-square" alt="Llama 3.3">
+  <img src="https://img.shields.io/badge/Qwen_3.8_27B-Groq-F55036?style=flat-square" alt="Qwen 3.8 27B">
   <img src="https://img.shields.io/badge/PuLP-Optimization-2E7D32?style=flat-square" alt="PuLP">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
 </p>
@@ -85,7 +85,7 @@ The architecture consists of three primary stages.
 
 ### 1. LLM Interpretation
 
-GridWise uses **Llama 3.3 70B through Groq** to convert natural language operator notes into structured JSON directives.
+GridWise uses **Qwen 3.8 27B through Groq** to convert natural language operator notes into structured JSON directives.
 
 For example:
 
@@ -382,7 +382,7 @@ Interactive documentation: [https://gridwise-semicolons.onrender.com/docs](https
 ![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-0.115.0-009688?style=for-the-badge&logo=fastapi&logoColor=white) ![Pydantic](https://img.shields.io/badge/Pydantic-2.8.2-445a64?style=for-the-badge&logo=pydantic&logoColor=white)
 
 ### AI & Intelligence
-![Llama 3.3](https://img.shields.io/badge/LLM-Llama_3.3_70B-F55036?style=for-the-badge) ![Groq](https://img.shields.io/badge/Provider-Groq-orange?style=for-the-badge)
+![Qwen 3.8 27B](https://img.shields.io/badge/LLM-Qwen_3.8_27B-F55036?style=for-the-badge) ![Groq](https://img.shields.io/badge/Provider-Groq-orange?style=for-the-badge)
 
 ### Math & Optimization
 ![PuLP](https://img.shields.io/badge/Optimization-PuLP-2E7D32?style=for-the-badge) ![CBC Solver](https://img.shields.io/badge/Solver-CBC-blue?style=for-the-badge)
@@ -395,7 +395,7 @@ Interactive documentation: [https://gridwise-semicolons.onrender.com/docs](https
 | Layer | Component | Purpose |
 | :--- | :--- | :--- |
 | **API Layer** | `FastAPI` | High-performance asynchronous request handling |
-| **Intelligence** | `Llama 3.3` | Parsing natural language into structured JSON |
+| **Intelligence** | `Qwen 3.8 27B` | Parsing natural language into structured JSON |
 | **Control** | `Pydantic` | Strict type validation and deterministic guardrails |
 | **Optimization** | `PuLP` | Solving the Linear Programming cost minimization problem |
 | **Solver** | `CBC` | The underlying mathematical solver for LP |
