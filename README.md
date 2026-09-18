@@ -539,18 +539,3 @@ docker run -p 8000:8000 \
 
 </div>
 
----
-
-<div align="center">
-
-## GridWise
-
-**Natural Language → Validated Constraints → Optimal Energy Schedule**
-
-<br>
-
-<a href="https://github.com/nomancsediu/BUP_CSE_FEST_2026_Semicolons_GridWise">
-  <img src="https://img.shields.io/badge/View%20Repository-GitHub-181717?style=for-the-badge&logo=github" alt="View Repository">
-</a>
-
-</div>
