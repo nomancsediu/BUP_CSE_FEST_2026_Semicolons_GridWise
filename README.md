@@ -9,6 +9,12 @@
 </p>
 
 <p>
+  <a href="https://gridwise-semicolons.onrender.com/health">
+    <img src="https://img.shields.io/badge/Live-Online-brightgreen?style=flat-square&logo=render&logoColor=white" alt="Live">
+  </a>
+  <a href="https://gridwise-semicolons.onrender.com/docs">
+    <img src="https://img.shields.io/badge/API-Docs-blue?style=flat-square&logo=swagger&logoColor=white" alt="API Docs">
+  </a>
   <a href="https://github.com/nomancsediu/BUP_CSE_FEST_2026_Semicolons_GridWise">
     <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github" alt="GitHub">
   </a>
@@ -360,15 +366,13 @@ POST /optimize-energy
 
 The endpoint accepts the complete 24 hour scenario and returns the optimized energy schedule.
 
-### Interactive API Documentation
-
-When running locally:
-
-```text
-http://localhost:8000/docs
-```
+### Public Deployment
+The API is deployed and accessible at: [https://gridwise-semicolons.onrender.com](https://gridwise-semicolons.onrender.com)
+Interactive documentation: [https://gridwise-semicolons.onrender.com/docs](https://gridwise-semicolons.onrender.com/docs)
 
 ---
+
+
 
 <div align="center">
 
@@ -503,13 +507,13 @@ docker run -p 8000:8000 \
 Available image:
 
 ```text
-nomancsediu/gridwise-optimizer:v1.0
+abdnoman/gridwise-optimizer:v1.0
 ```
 
 Pull:
 
 ```bash
-docker pull nomancsediu/gridwise-optimizer:v1.0
+docker pull abdnoman/gridwise-optimizer:v1.0
 ```
 
 Run:
@@ -517,8 +521,23 @@ Run:
 ```bash
 docker run -p 8000:8000 \
   -e GROQ_API_KEY=your_api_key_here \
-  nomancsediu/gridwise-optimizer:v1.0
+  abdnoman/gridwise-optimizer:v1.0
 ```
+
+---
+
+<div align="center">
+
+
+<div align="center">
+
+| **LLM**        | Understand operator intent                            |
+| **Guardrails** | Validate and control AI generated directives          |
+| **Optimizer**  | Generate the mathematically optimal feasible schedule |
+
+</div>
+
+This prevents an LLM from directly controlling the optimization model and makes the final energy schedule deterministic with respect to the validated inputs.
 
 ---
 
@@ -539,3 +558,18 @@ docker run -p 8000:8000 \
 
 </div>
 
+---
+
+<div align="center">
+
+## GridWise
+
+**Natural Language → Validated Constraints → Optimal Energy Schedule**
+
+<br>
+
+<a href="https://github.com/nomancsediu/BUP_CSE_FEST_2026_Semicolons_GridWise">
+  <img src="https://img.shields.io/badge/View%20Repository-GitHub-181717?style=for-the-badge&logo=github" alt="View Repository">
+</a>
+
+</div>
